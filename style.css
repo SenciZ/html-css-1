@@ -12,6 +12,10 @@
     background-color: rgb(237, 55, 0);
     height: 15vh;
     padding: 5vh;
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+
 }
 
 .logo{
@@ -22,37 +26,42 @@
 
 .hero {
     background-image: url("images/pexels-photo-2922140.jpeg");
-    height: 100vh;
+    height: 85vh;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
+    text-align: center;
 }
 .overlay {
     background-color: rgba(0, 0, 0, 0.7);
-    text-align: center;
     height: 100%;
+    position: relative;
+    text-align: center;
 }
 
 .heroText{
+    position: relative;
     text-align: center;
     width: 100%;
-    max-height: 20px;
+    max-height: 200px;
     /* padding: 0 200px; */
     /* padding-top: 200px; */
-    text-align: center;
     color: rgba(255, 255, 255, 0.769);
 }
 .title {
     margin-bottom: 20px;
     font-family: "Roboto";
-
 }
 
 .Description {
+    width: 60%;
     line-height: 35px;
 }
 
 .images360 {
-    display: inline;
+    position: absolute;
+    top: 300px;
+    text-align: center;
     margin-top: 30px;
     min-width: 100%;
     min-height: 100%;
@@ -60,9 +69,7 @@
 
 .firstImg{
     width: 400px;
-    display: inline;
 }
 .secondImg{
     width: 400px;
-    display: inline;
 }
